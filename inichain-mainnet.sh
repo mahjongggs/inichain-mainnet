@@ -67,7 +67,7 @@ cat > $DOWNLOAD_DIR/start-mining.sh <<EOF
 
 # Menjalankan penambangan
 echo "Mulai penambangan..."
-./iniminer-linux-x64 --pool $POOL_URL --cpu-devices 0
+./iniminer-linux-x64 --pool $POOL_URL
 EOF
 
 chmod +x $DOWNLOAD_DIR/start-mining.sh
